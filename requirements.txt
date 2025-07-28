@@ -1,6 +1,10 @@
-pip install langchain
-pip install openai
-pip install langchain-openai
-pip install dotenv
-pip install fastapi uvicorn paramiko
-pip install langchainhub
+langchain
+openai
+langchain-openai
+python-dotenv
+fastapi
+uvicorn
+paramiko
+langchainhub
+streamlit
+
