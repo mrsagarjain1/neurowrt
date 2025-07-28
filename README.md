@@ -21,8 +21,7 @@ This project brings the power of large language models to OpenWrt-based routers,
 
 - **OpenWrt** – The router OS
 - **LangChain** – LLM orchestration and tool integration
-- **Python**, **Lua**, and **Shell** – Custom scripting for system interaction
-- **ubus**, **uci**, **netifd**, and other OpenWrt subsystems
+- **Python**
 
 
 ## 💬 Example Commands
