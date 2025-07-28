@@ -23,6 +23,7 @@ This project brings the power of large language models to OpenWrt-based routers,
 - **LangChain** – LLM orchestration and tool integration
 - **Python**
 
+---
 
 ## 💬 Example Commands
 
@@ -35,6 +36,13 @@ Try asking:
 - “Is my router running out of memory?”
 
 ---
+
+## 📋 How To Install The Application
+
+Step 1: pip install requirements.txt
+Step 2: Create a .env file in the directory and put your openai api key like this OPENAI_API_KEY=your_api_key
+Step 3: Open the terminal in the same directory and the this command ```streamlit run neurowrt_gui.py```
+#### Note your router should be accessible from the host machine.
 
 ## 🧪 Development
 
