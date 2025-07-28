@@ -39,6 +39,7 @@ Try asking:
 ## 📋 How To Install The Application
 
 - pip install requirements.txt
+- Put your router's IP. username and password in router_agent.py
 - Create a .env file in the directory and put your openai api key like this OPENAI_API_KEY=your_api_key
 - Open the terminal in the same directory and the this command ```streamlit run neurowrt_gui.py```
 #### Note your router should be accessible from the host machine.
