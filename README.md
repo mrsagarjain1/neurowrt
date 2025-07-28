@@ -13,7 +13,6 @@ This project brings the power of large language models to OpenWrt-based routers,
 - 📊 **Bandwidth and traffic monitoring** – Natural language summaries of network usage.
 - 🔐 **Security insights** – Identify suspicious traffic or open ports.
 - 🧠 **LangChain-powered logic** – Combines LLM reasoning with OpenWrt APIs and CLI tools.
-- 🖥️ **Multi-interface access** – Use via CLI, Web UI (LuCI), or third-party chatbots.
 
 ---
 
