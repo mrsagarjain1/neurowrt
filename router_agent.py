@@ -1,14 +1,12 @@
 from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 import paramiko
-import os
-
 
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv() #to load the openAI api key from .env file
 
-llm = ChatOpenAI(temperature=0, model_name="gpt-4o-mini")
+llm = ChatOpenAI(temperature=0, model_name="gpt-4o-mini") #using openai llm
 
 # Prompt template
 prompt = PromptTemplate(
@@ -27,7 +25,7 @@ Command:"""
 
 chain = prompt | llm
 
-def run_on_router(command):
+def run_on_router(command: str) -> str: #taking ssh of a router and executing a command
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     ssh.connect("192.168.1.1", username="root", password="root")
@@ -35,9 +33,3 @@ def run_on_router(command):
     result = stdout.read().decode()
     ssh.close()
     return result
-
-# cmd = chain.invoke(input={"user_input": "give me the wan address in the virtual box"})
-# print(cmd.content)
-# result = run_on_router(cmd)
-# print(result)
-
