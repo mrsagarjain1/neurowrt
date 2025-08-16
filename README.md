@@ -44,6 +44,10 @@ Try asking:
 - Open the terminal in the same directory and run this command ```streamlit run neurowrt_gui.py```
 #### Note: your router should be accessible from the host machine.
 
+![1753701684683](https://github.com/user-attachments/assets/05f78289-640b-4a43-871b-95201670f151)
+
+![1753701684719](https://github.com/user-attachments/assets/9f80af9a-e8e4-4c1b-b931-17d6634e0b95)
+
 ## 🧪 Development
 
 Feel free to fork, contribute, or suggest improvements.
